@@ -10,7 +10,7 @@ class Solution {
             }
             else if(arr[i] > secondLargest && arr[i] < largest){
                 secondLargest = arr[i];
-            }git
+            }
         }
         
         if(secondLargest == Integer.MIN_VALUE){
